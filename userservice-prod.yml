@@ -1,0 +1,9 @@
+server:
+  port: 9002
+
+spring:
+  profiles: prod
+  datasource:
+    url: jdbc:postgresql://prod-db:5432/users
+    username: prod_user
+    password: "{cipher}ABC123EncryptedPassword"
