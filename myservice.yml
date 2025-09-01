@@ -1,0 +1,7 @@
+message: "Hello from Git Config Repo!"
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mydb
+    username: dbuser
+    password: "{cipher}AQBnfnQ6eq...encrypted-password..."
