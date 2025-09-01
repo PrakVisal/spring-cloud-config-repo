@@ -1,0 +1,6 @@
+logging:
+  level:
+    root: INFO
+
+common:
+  welcome: "Welcome to Spring Cloud Config!"
